@@ -1,0 +1,5 @@
+* Initializing ArrayList
+  1. ArrayList<Integer> arr = new ArrayList<>(); //Empty ArrayList
+  2. ArrayList<Integer> arr = new ArrayList<>(10); //ArrayList of size 10
+  3. ArrayList<Integer> arr = new ArrayList<Integer>(Collections.nCopies(10, 0)); // ArrayList of size 10 with all values 0
+  
