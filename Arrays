@@ -1,4 +1,10 @@
-// Deep copy 
+--- Deep copy ---
 1. Arrays.copyOf(arr , arr.length); // deep coping arr to other
 2. System.arraycopy(arr, 0, res, 0, arr.length); // deep copying arr into res
 3. arr.clone(); // cloning arr to another array
+
+--- Storing index of array for ranking order top to bottom ---
+int[] score = {10,3,8,9,4};
+Integer[] index = new Integer[score.length];
+for(int i = 0;i<score.length;i++)index[i]=i;
+Arrays.sort(index , (a,b) -> (score[b]-score[a]));
